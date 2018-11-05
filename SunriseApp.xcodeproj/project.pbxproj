@@ -12,9 +12,21 @@
 		3D06E7682190ECFF00D8B34D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D06E7662190ECFF00D8B34D /* Main.storyboard */; };
 		3D06E76A2190ED0100D8B34D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D06E7692190ED0100D8B34D /* Assets.xcassets */; };
 		3D06E76D2190ED0100D8B34D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D06E76B2190ED0100D8B34D /* LaunchScreen.storyboard */; };
+		3D06E77D2190F2FE00D8B34D /* PlaceTableViewCelll.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D06E7742190F2FD00D8B34D /* PlaceTableViewCelll.xib */; };
+		3D06E77E2190F2FE00D8B34D /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D06E7752190F2FD00D8B34D /* PlaceTableViewCell.swift */; };
+		3D06E77F2190F2FE00D8B34D /* AddPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D06E7762190F2FD00D8B34D /* AddPlaceViewController.swift */; };
+		3D06E7802190F2FE00D8B34D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D06E7772190F2FD00D8B34D /* SecondViewController.swift */; };
+		3D06E7812190F2FE00D8B34D /* PlaceModelDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D06E7782190F2FE00D8B34D /* PlaceModelDTO.swift */; };
+		3D06E7822190F2FE00D8B34D /* ConfirmMapPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D06E7792190F2FE00D8B34D /* ConfirmMapPlaceViewController.swift */; };
+		3D06E7832190F2FE00D8B34D /* ChoosePlaseOnMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D06E77A2190F2FE00D8B34D /* ChoosePlaseOnMapViewController.swift */; };
+		3D06E7842190F2FE00D8B34D /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D06E77B2190F2FE00D8B34D /* View.swift */; };
+		3D06E7852190F2FE00D8B34D /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D06E77C2190F2FE00D8B34D /* TableView.swift */; };
+		BED653641E63165925AAF381 /* Pods_SunriseApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16ED42C88F77B3B36EF130A6 /* Pods_SunriseApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16ED42C88F77B3B36EF130A6 /* Pods_SunriseApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SunriseApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38313BACC2FB35A4ADEF2AEF /* Pods-SunriseApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunriseApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SunriseApp/Pods-SunriseApp.debug.xcconfig"; sourceTree = "<group>"; };
 		3D06E75F2190ECFF00D8B34D /* SunriseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunriseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D06E7622190ECFF00D8B34D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D06E7642190ECFF00D8B34D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,16 @@
 		3D06E7692190ED0100D8B34D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D06E76C2190ED0100D8B34D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D06E76E2190ED0100D8B34D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D06E7742190F2FD00D8B34D /* PlaceTableViewCelll.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceTableViewCelll.xib; sourceTree = "<group>"; };
+		3D06E7752190F2FD00D8B34D /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
+		3D06E7762190F2FD00D8B34D /* AddPlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPlaceViewController.swift; sourceTree = "<group>"; };
+		3D06E7772190F2FD00D8B34D /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3D06E7782190F2FE00D8B34D /* PlaceModelDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceModelDTO.swift; sourceTree = "<group>"; };
+		3D06E7792190F2FE00D8B34D /* ConfirmMapPlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmMapPlaceViewController.swift; sourceTree = "<group>"; };
+		3D06E77A2190F2FE00D8B34D /* ChoosePlaseOnMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoosePlaseOnMapViewController.swift; sourceTree = "<group>"; };
+		3D06E77B2190F2FE00D8B34D /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		3D06E77C2190F2FE00D8B34D /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		C46812C1A796BBD7BE283E88 /* Pods-SunriseApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunriseApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SunriseApp/Pods-SunriseApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +51,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BED653641E63165925AAF381 /* Pods_SunriseApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2375AA807A4659473698F4EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38313BACC2FB35A4ADEF2AEF /* Pods-SunriseApp.debug.xcconfig */,
+				C46812C1A796BBD7BE283E88 /* Pods-SunriseApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3D06E7562190ECFF00D8B34D = {
 			isa = PBXGroup;
 			children = (
 				3D06E7612190ECFF00D8B34D /* SunriseApp */,
 				3D06E7602190ECFF00D8B34D /* Products */,
+				2375AA807A4659473698F4EC /* Pods */,
+				C459364C4596490B83CCEC68 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +88,11 @@
 		3D06E7612190ECFF00D8B34D /* SunriseApp */ = {
 			isa = PBXGroup;
 			children = (
+				3D06E7872190F3DC00D8B34D /* Controllers */,
+				3D06E7862190F3BC00D8B34D /* Extensions */,
+				3D06E7782190F2FE00D8B34D /* PlaceModelDTO.swift */,
+				3D06E7752190F2FD00D8B34D /* PlaceTableViewCell.swift */,
+				3D06E7742190F2FD00D8B34D /* PlaceTableViewCelll.xib */,
 				3D06E7622190ECFF00D8B34D /* AppDelegate.swift */,
 				3D06E7642190ECFF00D8B34D /* ViewController.swift */,
 				3D06E7662190ECFF00D8B34D /* Main.storyboard */,
@@ -64,6 +103,34 @@
 			path = SunriseApp;
 			sourceTree = "<group>";
 		};
+		3D06E7862190F3BC00D8B34D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3D06E77C2190F2FE00D8B34D /* TableView.swift */,
+				3D06E77B2190F2FE00D8B34D /* View.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3D06E7872190F3DC00D8B34D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D06E7762190F2FD00D8B34D /* AddPlaceViewController.swift */,
+				3D06E77A2190F2FE00D8B34D /* ChoosePlaseOnMapViewController.swift */,
+				3D06E7792190F2FE00D8B34D /* ConfirmMapPlaceViewController.swift */,
+				3D06E7772190F2FD00D8B34D /* SecondViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C459364C4596490B83CCEC68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16ED42C88F77B3B36EF130A6 /* Pods_SunriseApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +138,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D06E7712190ED0100D8B34D /* Build configuration list for PBXNativeTarget "SunriseApp" */;
 			buildPhases = (
+				F34F7DD34DDA8F2E6C4C6399 /* [CP] Check Pods Manifest.lock */,
 				3D06E75B2190ECFF00D8B34D /* Sources */,
 				3D06E75C2190ECFF00D8B34D /* Frameworks */,
 				3D06E75D2190ECFF00D8B34D /* Resources */,
+				AE4EDE7EFDC1082B0686F663 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,6 +191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D06E77D2190F2FE00D8B34D /* PlaceTableViewCelll.xib in Resources */,
 				3D06E76D2190ED0100D8B34D /* LaunchScreen.storyboard in Resources */,
 				3D06E76A2190ED0100D8B34D /* Assets.xcassets in Resources */,
 				3D06E7682190ECFF00D8B34D /* Main.storyboard in Resources */,
@@ -130,13 +200,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AE4EDE7EFDC1082B0686F663 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SunriseApp/Pods-SunriseApp-resources.sh",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SunriseApp/Pods-SunriseApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F34F7DD34DDA8F2E6C4C6399 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SunriseApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3D06E75B2190ECFF00D8B34D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D06E7822190F2FE00D8B34D /* ConfirmMapPlaceViewController.swift in Sources */,
+				3D06E7852190F2FE00D8B34D /* TableView.swift in Sources */,
+				3D06E77F2190F2FE00D8B34D /* AddPlaceViewController.swift in Sources */,
 				3D06E7652190ECFF00D8B34D /* ViewController.swift in Sources */,
 				3D06E7632190ECFF00D8B34D /* AppDelegate.swift in Sources */,
+				3D06E7802190F2FE00D8B34D /* SecondViewController.swift in Sources */,
+				3D06E7842190F2FE00D8B34D /* View.swift in Sources */,
+				3D06E77E2190F2FE00D8B34D /* PlaceTableViewCell.swift in Sources */,
+				3D06E7812190F2FE00D8B34D /* PlaceModelDTO.swift in Sources */,
+				3D06E7832190F2FE00D8B34D /* ChoosePlaseOnMapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +405,7 @@
 		};
 		3D06E7722190ED0100D8B34D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38313BACC2FB35A4ADEF2AEF /* Pods-SunriseApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +423,7 @@
 		};
 		3D06E7732190ED0100D8B34D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C46812C1A796BBD7BE283E88 /* Pods-SunriseApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
