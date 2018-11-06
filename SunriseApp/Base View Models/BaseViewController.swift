@@ -49,7 +49,7 @@ class BaseViewController: UIViewController {
     
     //MARK: - private
     private func setupActivityIndicator() {
-        activityIndicator = UIActivityIndicatorView(style: .gray)
+        activityIndicator = UIActivityIndicatorView(style: .whiteLarge)
         self.view.addSubview(activityIndicator!)
         activityIndicator?.translatesAutoresizingMaskIntoConstraints = false
         let centerX = NSLayoutConstraint(item: activityIndicator!, attribute: .centerX, relatedBy: .equal, toItem: self.view, attribute: .centerX, multiplier: 1.0, constant: 0.0)
