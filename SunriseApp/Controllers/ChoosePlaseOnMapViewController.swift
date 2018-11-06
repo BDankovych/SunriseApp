@@ -9,7 +9,7 @@
 import UIKit
 import MapKit
 
-class ChoosePlaseOnMapViewController: UIViewController {
+class ChoosePlaseOnMapViewController: BaseViewController {
 
     
     @IBOutlet weak var mapView: MKMapView!
@@ -25,21 +25,18 @@ class ChoosePlaseOnMapViewController: UIViewController {
             let tapLocation = tapRecognizer.location(in: mapView)
             let locationCoord = mapView.convert(tapLocation, toCoordinateFrom: mapView)
             let location = CLLocation(latitude: locationCoord.latitude, longitude: locationCoord.longitude)
-            CLGeocoder().reverseGeocodeLocation(location) { (marks, error) in
-                guard let place = marks?.first else {
-                    return
-                }
-                self.showConfirmPopUp(for: place)
-            }
+            showConfirmPopUp(for: location)
         }
     }
     
-    func showConfirmPopUp(for place: CLPlacemark) {
+    func showConfirmPopUp(for location: CLLocation) {
         guard let confirmVC = storyboard?.instantiateViewController(withIdentifier: ConfirmMapPlaceViewController.identifier) as? ConfirmMapPlaceViewController else {
+            showErrorPopup(text: "Error")
             return
         }
         confirmVC.modalPresentationStyle = .overCurrentContext
         confirmVC.modalTransitionStyle = .crossDissolve
+        confirmVC.location = location
         present(confirmVC, animated: true)
     }
 

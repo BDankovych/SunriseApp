@@ -12,15 +12,18 @@
 		3D06E7682190ECFF00D8B34D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D06E7662190ECFF00D8B34D /* Main.storyboard */; };
 		3D06E76A2190ED0100D8B34D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D06E7692190ED0100D8B34D /* Assets.xcassets */; };
 		3D06E76D2190ED0100D8B34D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D06E76B2190ED0100D8B34D /* LaunchScreen.storyboard */; };
-		3D06E77D2190F2FE00D8B34D /* PlaceTableViewCelll.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D06E7742190F2FD00D8B34D /* PlaceTableViewCelll.xib */; };
 		3D06E77E2190F2FE00D8B34D /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D06E7752190F2FD00D8B34D /* PlaceTableViewCell.swift */; };
 		3D06E77F2190F2FE00D8B34D /* AddPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D06E7762190F2FD00D8B34D /* AddPlaceViewController.swift */; };
-		3D06E7802190F2FE00D8B34D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D06E7772190F2FD00D8B34D /* SecondViewController.swift */; };
-		3D06E7812190F2FE00D8B34D /* PlaceModelDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D06E7782190F2FE00D8B34D /* PlaceModelDTO.swift */; };
+		3D06E7812190F2FE00D8B34D /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D06E7782190F2FE00D8B34D /* PlaceModel.swift */; };
 		3D06E7822190F2FE00D8B34D /* ConfirmMapPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D06E7792190F2FE00D8B34D /* ConfirmMapPlaceViewController.swift */; };
 		3D06E7832190F2FE00D8B34D /* ChoosePlaseOnMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D06E77A2190F2FE00D8B34D /* ChoosePlaseOnMapViewController.swift */; };
 		3D06E7842190F2FE00D8B34D /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D06E77B2190F2FE00D8B34D /* View.swift */; };
 		3D06E7852190F2FE00D8B34D /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D06E77C2190F2FE00D8B34D /* TableView.swift */; };
+		3D06E78A2190FE2600D8B34D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D06E7892190FE2600D8B34D /* BaseViewController.swift */; };
+		3D06E78D2191097E00D8B34D /* PlacesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D06E78C2191097E00D8B34D /* PlacesManager.swift */; };
+		3D06E79321917DA400D8B34D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D06E79221917DA400D8B34D /* MapKit.framework */; };
+		3D06E79721918F0300D8B34D /* PlaceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D06E79621918F0300D8B34D /* PlaceDetailViewController.swift */; };
+		3D7CA36321919888003E5370 /* SunriseApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7CA36221919888003E5370 /* SunriseApiManager.swift */; };
 		BED653641E63165925AAF381 /* Pods_SunriseApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16ED42C88F77B3B36EF130A6 /* Pods_SunriseApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,15 +37,18 @@
 		3D06E7692190ED0100D8B34D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D06E76C2190ED0100D8B34D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D06E76E2190ED0100D8B34D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D06E7742190F2FD00D8B34D /* PlaceTableViewCelll.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceTableViewCelll.xib; sourceTree = "<group>"; };
 		3D06E7752190F2FD00D8B34D /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
 		3D06E7762190F2FD00D8B34D /* AddPlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPlaceViewController.swift; sourceTree = "<group>"; };
-		3D06E7772190F2FD00D8B34D /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		3D06E7782190F2FE00D8B34D /* PlaceModelDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceModelDTO.swift; sourceTree = "<group>"; };
+		3D06E7782190F2FE00D8B34D /* PlaceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 		3D06E7792190F2FE00D8B34D /* ConfirmMapPlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmMapPlaceViewController.swift; sourceTree = "<group>"; };
 		3D06E77A2190F2FE00D8B34D /* ChoosePlaseOnMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoosePlaseOnMapViewController.swift; sourceTree = "<group>"; };
 		3D06E77B2190F2FE00D8B34D /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		3D06E77C2190F2FE00D8B34D /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		3D06E7892190FE2600D8B34D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		3D06E78C2191097E00D8B34D /* PlacesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesManager.swift; sourceTree = "<group>"; };
+		3D06E79221917DA400D8B34D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3D06E79621918F0300D8B34D /* PlaceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailViewController.swift; sourceTree = "<group>"; };
+		3D7CA36221919888003E5370 /* SunriseApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunriseApiManager.swift; sourceTree = "<group>"; };
 		C46812C1A796BBD7BE283E88 /* Pods-SunriseApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunriseApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SunriseApp/Pods-SunriseApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -51,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D06E79321917DA400D8B34D /* MapKit.framework in Frameworks */,
 				BED653641E63165925AAF381 /* Pods_SunriseApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -88,17 +95,17 @@
 		3D06E7612190ECFF00D8B34D /* SunriseApp */ = {
 			isa = PBXGroup;
 			children = (
+				3D06E78B2191096100D8B34D /* Managers */,
 				3D06E7872190F3DC00D8B34D /* Controllers */,
 				3D06E7862190F3BC00D8B34D /* Extensions */,
-				3D06E7782190F2FE00D8B34D /* PlaceModelDTO.swift */,
+				3D06E7782190F2FE00D8B34D /* PlaceModel.swift */,
 				3D06E7752190F2FD00D8B34D /* PlaceTableViewCell.swift */,
-				3D06E7742190F2FD00D8B34D /* PlaceTableViewCelll.xib */,
 				3D06E7622190ECFF00D8B34D /* AppDelegate.swift */,
-				3D06E7642190ECFF00D8B34D /* ViewController.swift */,
 				3D06E7662190ECFF00D8B34D /* Main.storyboard */,
 				3D06E7692190ED0100D8B34D /* Assets.xcassets */,
 				3D06E76B2190ED0100D8B34D /* LaunchScreen.storyboard */,
 				3D06E76E2190ED0100D8B34D /* Info.plist */,
+				3D06E7892190FE2600D8B34D /* BaseViewController.swift */,
 			);
 			path = SunriseApp;
 			sourceTree = "<group>";
@@ -115,17 +122,28 @@
 		3D06E7872190F3DC00D8B34D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				3D06E7642190ECFF00D8B34D /* ViewController.swift */,
 				3D06E7762190F2FD00D8B34D /* AddPlaceViewController.swift */,
 				3D06E77A2190F2FE00D8B34D /* ChoosePlaseOnMapViewController.swift */,
 				3D06E7792190F2FE00D8B34D /* ConfirmMapPlaceViewController.swift */,
-				3D06E7772190F2FD00D8B34D /* SecondViewController.swift */,
+				3D06E79621918F0300D8B34D /* PlaceDetailViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3D06E78B2191096100D8B34D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				3D06E78C2191097E00D8B34D /* PlacesManager.swift */,
+				3D7CA36221919888003E5370 /* SunriseApiManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 		C459364C4596490B83CCEC68 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3D06E79221917DA400D8B34D /* MapKit.framework */,
 				16ED42C88F77B3B36EF130A6 /* Pods_SunriseApp.framework */,
 			);
 			name = Frameworks;
@@ -143,6 +161,7 @@
 				3D06E75C2190ECFF00D8B34D /* Frameworks */,
 				3D06E75D2190ECFF00D8B34D /* Resources */,
 				AE4EDE7EFDC1082B0686F663 /* [CP] Copy Pods Resources */,
+				2D786AB58CD0AD65541DF9C9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -165,6 +184,11 @@
 				TargetAttributes = {
 					3D06E75E2190ECFF00D8B34D = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -191,7 +215,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D06E77D2190F2FE00D8B34D /* PlaceTableViewCelll.xib in Resources */,
 				3D06E76D2190ED0100D8B34D /* LaunchScreen.storyboard in Resources */,
 				3D06E76A2190ED0100D8B34D /* Assets.xcassets in Resources */,
 				3D06E7682190ECFF00D8B34D /* Main.storyboard in Resources */,
@@ -201,6 +224,32 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2D786AB58CD0AD65541DF9C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SunriseApp/Pods-SunriseApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SunriseApp/Pods-SunriseApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		AE4EDE7EFDC1082B0686F663 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -257,11 +306,14 @@
 				3D06E77F2190F2FE00D8B34D /* AddPlaceViewController.swift in Sources */,
 				3D06E7652190ECFF00D8B34D /* ViewController.swift in Sources */,
 				3D06E7632190ECFF00D8B34D /* AppDelegate.swift in Sources */,
-				3D06E7802190F2FE00D8B34D /* SecondViewController.swift in Sources */,
+				3D06E78A2190FE2600D8B34D /* BaseViewController.swift in Sources */,
 				3D06E7842190F2FE00D8B34D /* View.swift in Sources */,
 				3D06E77E2190F2FE00D8B34D /* PlaceTableViewCell.swift in Sources */,
-				3D06E7812190F2FE00D8B34D /* PlaceModelDTO.swift in Sources */,
+				3D06E7812190F2FE00D8B34D /* PlaceModel.swift in Sources */,
+				3D06E79721918F0300D8B34D /* PlaceDetailViewController.swift in Sources */,
+				3D7CA36321919888003E5370 /* SunriseApiManager.swift in Sources */,
 				3D06E7832190F2FE00D8B34D /* ChoosePlaseOnMapViewController.swift in Sources */,
+				3D06E78D2191097E00D8B34D /* PlacesManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,7 +460,9 @@
 			baseConfigurationReference = 38313BACC2FB35A4ADEF2AEF /* Pods-SunriseApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5V2UR6Y3A9;
 				INFOPLIST_FILE = SunriseApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -416,6 +470,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bohdan.dankovych.SunriseApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -426,7 +481,9 @@
 			baseConfigurationReference = C46812C1A796BBD7BE283E88 /* Pods-SunriseApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5V2UR6Y3A9;
 				INFOPLIST_FILE = SunriseApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -434,6 +491,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bohdan.dankovych.SunriseApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

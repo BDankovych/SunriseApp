@@ -9,7 +9,7 @@
 import UIKit
 import GooglePlaces
 
-class AddPlaceViewController: UIViewController {
+class AddPlaceViewController: BaseViewController {
     
     lazy var placePickerController: GMSAutocompleteViewController = {
         let placePickerController = GMSAutocompleteViewController()
@@ -34,15 +34,13 @@ class AddPlaceViewController: UIViewController {
 
 extension AddPlaceViewController: GMSAutocompleteViewControllerDelegate {
     func viewController(_ viewController: GMSAutocompleteViewController, didAutocompleteWith place: GMSPlace) {
-        print("Place name: \(place.name)")
-        print("Place address: \(place.formattedAddress)")
-        print(place.coordinate)
-        print("Place attributions: \(place.attributions)")
+        let placeModel = PlaceModel(place)
+        PlacesManager.addPlace(placeModel)
         dismiss(animated: true, completion: nil)
     }
     
     func viewController(_ viewController: GMSAutocompleteViewController, didFailAutocompleteWithError error: Error) {
-        print("Error: ", error.localizedDescription)
+        showErrorPopup(text: error.localizedDescription)
     }
     
     func wasCancelled(_ viewController: GMSAutocompleteViewController) {

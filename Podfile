@@ -7,5 +7,7 @@ target 'SunriseApp' do
 
   # Pods for SunriseApp
 pod 'GooglePlaces'
+pod 'Alamofire'
+pod 'AlamofireObjectMapper'
 
 end
