@@ -25,12 +25,7 @@ class PlaceTableViewCell: UITableViewCell {
         nameLabel.text = place.name
         subTitleLabel.text = place.address
         
-        
         layer.cornerRadius = bounds.height / 2
-        
     }
-    
-    
-    
     
 }

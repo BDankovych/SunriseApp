@@ -34,8 +34,12 @@ class PlacesManager {
     static func addPlace(_ placeModel: PlaceModel) {
         shared.places.append(placeModel)
     }
-
-    static func getPlaces() -> [PlaceModel] {
-        return shared.places
+    
+    static func deleteItem(at index: Int) {
+        guard index >= 0 ,
+            index < shared.places.count else {
+                return
+        }
+        shared.places.remove(at: index)
     }
 }

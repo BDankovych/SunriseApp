@@ -101,11 +101,15 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let detailVC = storyboard?.instantiateViewController(withIdentifier: PlaceDetailViewController.identifier) as? PlaceDetailViewController {
-//            self.navigationController!.present(detailVC, animated: true) {
-//                detailVC.configure(with: self.places[indexPath.section])
-//            }
             detailVC.place = self.places[indexPath.section]
             self.navigationController!.show(detailVC, sender: nil)
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            PlacesManager.deleteItem(at: indexPath.section)
+            tableView.reloadData()
         }
     }
     
