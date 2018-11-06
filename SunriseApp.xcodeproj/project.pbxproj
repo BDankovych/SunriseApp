@@ -23,6 +23,8 @@
 		3D06E78D2191097E00D8B34D /* PlacesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D06E78C2191097E00D8B34D /* PlacesManager.swift */; };
 		3D06E79321917DA400D8B34D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D06E79221917DA400D8B34D /* MapKit.framework */; };
 		3D06E79721918F0300D8B34D /* PlaceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D06E79621918F0300D8B34D /* PlaceDetailViewController.swift */; };
+		3D0915E82191AE5C00ACEB01 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0915E72191AE5C00ACEB01 /* RoundedButton.swift */; };
+		3D0915EA2191AF7F00ACEB01 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0915E92191AF7F00ACEB01 /* RoundedView.swift */; };
 		3D7CA36321919888003E5370 /* SunriseApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7CA36221919888003E5370 /* SunriseApiManager.swift */; };
 		BED653641E63165925AAF381 /* Pods_SunriseApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16ED42C88F77B3B36EF130A6 /* Pods_SunriseApp.framework */; };
 /* End PBXBuildFile section */
@@ -48,6 +50,8 @@
 		3D06E78C2191097E00D8B34D /* PlacesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesManager.swift; sourceTree = "<group>"; };
 		3D06E79221917DA400D8B34D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		3D06E79621918F0300D8B34D /* PlaceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailViewController.swift; sourceTree = "<group>"; };
+		3D0915E72191AE5C00ACEB01 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		3D0915E92191AF7F00ACEB01 /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
 		3D7CA36221919888003E5370 /* SunriseApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunriseApiManager.swift; sourceTree = "<group>"; };
 		C46812C1A796BBD7BE283E88 /* Pods-SunriseApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunriseApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SunriseApp/Pods-SunriseApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +99,7 @@
 		3D06E7612190ECFF00D8B34D /* SunriseApp */ = {
 			isa = PBXGroup;
 			children = (
+				3D0915E32191AC3000ACEB01 /* Base View Models */,
 				3D06E78B2191096100D8B34D /* Managers */,
 				3D06E7872190F3DC00D8B34D /* Controllers */,
 				3D06E7862190F3BC00D8B34D /* Extensions */,
@@ -105,7 +110,6 @@
 				3D06E7692190ED0100D8B34D /* Assets.xcassets */,
 				3D06E76B2190ED0100D8B34D /* LaunchScreen.storyboard */,
 				3D06E76E2190ED0100D8B34D /* Info.plist */,
-				3D06E7892190FE2600D8B34D /* BaseViewController.swift */,
 			);
 			path = SunriseApp;
 			sourceTree = "<group>";
@@ -138,6 +142,16 @@
 				3D7CA36221919888003E5370 /* SunriseApiManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		3D0915E32191AC3000ACEB01 /* Base View Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D06E7892190FE2600D8B34D /* BaseViewController.swift */,
+				3D0915E72191AE5C00ACEB01 /* RoundedButton.swift */,
+				3D0915E92191AF7F00ACEB01 /* RoundedView.swift */,
+			);
+			path = "Base View Models";
 			sourceTree = "<group>";
 		};
 		C459364C4596490B83CCEC68 /* Frameworks */ = {
@@ -309,9 +323,11 @@
 				3D06E78A2190FE2600D8B34D /* BaseViewController.swift in Sources */,
 				3D06E7842190F2FE00D8B34D /* View.swift in Sources */,
 				3D06E77E2190F2FE00D8B34D /* PlaceTableViewCell.swift in Sources */,
+				3D0915EA2191AF7F00ACEB01 /* RoundedView.swift in Sources */,
 				3D06E7812190F2FE00D8B34D /* PlaceModel.swift in Sources */,
 				3D06E79721918F0300D8B34D /* PlaceDetailViewController.swift in Sources */,
 				3D7CA36321919888003E5370 /* SunriseApiManager.swift in Sources */,
+				3D0915E82191AE5C00ACEB01 /* RoundedButton.swift in Sources */,
 				3D06E7832190F2FE00D8B34D /* ChoosePlaseOnMapViewController.swift in Sources */,
 				3D06E78D2191097E00D8B34D /* PlacesManager.swift in Sources */,
 			);

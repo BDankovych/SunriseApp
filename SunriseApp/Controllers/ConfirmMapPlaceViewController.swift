@@ -48,7 +48,6 @@ class ConfirmMapPlaceViewController: BaseViewController {
     func configure(_ placeModel: PlaceModel) {
         nameLabel.text = placeModel.name
         addressLabel.text = placeModel.address
-        
         self.placeModel = placeModel
     }
     

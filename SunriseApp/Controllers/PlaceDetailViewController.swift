@@ -15,18 +15,28 @@ class PlaceDetailViewController: BaseViewController {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var subTitleLabel: UILabel!
     
+    @IBOutlet weak var contentView: RoundedView!
+    
     @IBOutlet weak var sunriseTimeLabel: UILabel!
     @IBOutlet weak var sunsetTimeLabel: UILabel!
     @IBOutlet weak var dayLengthLabel: UILabel!
     
+    var place: PlaceModel!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        contentView.isHidden = true
+        configure()
+    }
     
     
-    func configure(with place: PlaceModel) {
+    func configure() {
         startActivityIndicator()
         SunriseApiManager.loadInfo(for: place) { (success, dto, errors) in
             self.stopActivityIndicator()
             if success {
-                self.configureView(with: place)
+                self.contentView.isHidden = false
+                self.configureView(with: self.place)
                 self.configureView(with: dto!)
             } else {
                 self.showErrorPopup(text: errors?.localizedDescription ?? "Undefined error", completion: {

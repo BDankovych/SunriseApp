@@ -40,8 +40,13 @@ class PlaceModel {
         self.name = name
         self.longitude = longitude
         self.latitude = latitude
-//        self.address = address
-        
+        self.address = (place.locality != nil ? ", \(place.locality!)" : "")
+                            + (place.subLocality != nil ? ", \(place.subLocality!)" : "")
+                            + (place.administrativeArea != nil ? ", \(place.administrativeArea!)" : "")
+                            + (place.country != nil ? ", \(place.country!)" : "")
+        while self.address.first == "," || self.address.first == " " {
+            self.address.removeFirst()
+        }
     }
 
 }

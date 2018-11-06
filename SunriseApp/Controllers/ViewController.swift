@@ -101,9 +101,11 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let detailVC = storyboard?.instantiateViewController(withIdentifier: PlaceDetailViewController.identifier) as? PlaceDetailViewController {
-            self.present(detailVC, animated: true) {
-                detailVC.configure(with: self.places[indexPath.section])
-            }
+//            self.navigationController!.present(detailVC, animated: true) {
+//                detailVC.configure(with: self.places[indexPath.section])
+//            }
+            detailVC.place = self.places[indexPath.section]
+            self.navigationController!.show(detailVC, sender: nil)
         }
     }
     
